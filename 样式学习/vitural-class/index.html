@@ -9,6 +9,20 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
   </head>
   <body>
+    <h1>require</h1>
+    <p>input中类型为email的校验</p>
+
+    <p>符合email校验规则</p>
+    <input type="email" required placeholder="请输入" value="24238477@qq.com" />
+    <br /><br />
+
+    <p>不符合email校验规则</p>
+    <input type="email" required placeholder="请输入" value="lalala" />
+    <br /><br />
+
+    <p>有required标识，但未填写</p>
+    <input type="email" required placeholder="请输入" value="" />
+    <hr />
     <h1>折叠面板</h1>
     <div class="t-collapse">
       <a class="collapse-target" href="#modal1">第一块打开</a>
